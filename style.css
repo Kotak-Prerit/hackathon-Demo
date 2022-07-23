@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&family=Poppins:wght@300;400;500;600;700;800&family=Red+Hat+Display:wght@400;500;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    height: auto;
+    width: 650px;
+    border: 1px solid lightgray;
+    border-radius: 16px;
+    padding: 15px
+}
+
+.img{
+    border-radius: 16px;
+    height: 270px;
+    width: 180px;
+    object-fit: cover;
+}
+
+.content{
+   margin-left: 20px;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 1.2;
+}
+
+p{
+    margin: 7px 0;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.offer{
+    font-size: 15px;
+    color: white;
+    background: #FFB830;
+    border: none;
+    border-radius: 16px;
+    padding: 5px 15px;
+    font-weight: 600;
+}
+
+.amt {
+    font-weight: 800;
+}
+
+.cut{
+    color: gray;
+}
+
+.purchase{
+    color: white;
+    padding: 10px 15px;
+    background: black;
+    border: none;
+    font-size: 18px;
+    border-radius: 3px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.add{
+    color: black;
+    padding: 10px 15px;
+    background: #fff;
+    border: 2px solid black;
+    font-size: 18px;
+    border-radius: 3px;
+    font-weight: 600;
+    cursor: pointer;
+}
